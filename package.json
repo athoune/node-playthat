@@ -1,0 +1,25 @@
+{
+    "name": "playthat",
+    "version": "0.0.1",
+    "main": "./lib/playthat",
+    "author": "Mathieu Lecarme <mathieu@garambrogne.net>",
+    "description": "Play my music on that VLC",
+    "devDependencies": {
+        "mocha": " >= 1.7.0",
+        "should": " >= 1.2.0"
+    },
+    "dependencies": {
+        "vlc-api": ">= 0.0",
+        "nopt": "~1.0.10",
+        "send": ">= 0.1"
+    },
+    "bin": "bin/playthat",
+    "keywords": [],
+    "engines": ["node >= 0.8.0"],
+    "licences": {
+        "type": "MIT"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha -R list -C"
+    }
+}
