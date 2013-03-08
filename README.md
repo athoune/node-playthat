@@ -14,7 +14,7 @@ Beware, VLC http interface is just broken on Mac, and Ubuntu can't play sound wi
 
 On the client :
 
-    node lib/playthat.js /path/to/some/mp3
+    node lib/playthat.js --vlc 192.168.1.2 --music /path/to/some/mp3
 
 Anybody can fight and suggest its own music. One server plugged to a loudspeaker, many clients.
 
